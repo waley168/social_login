@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>註冊</title>
+</head>
+<body>
+    <h1>註冊</h1>
+    <form method="post">
+        <label for="username">用戶名：</label>
+        <input type="text" name="username" required>
+        <br>
+        <label for="password">密碼：</label>
+        <input type="password" name="password" required>
+        <br>
+        <input type="submit" value="註冊">
+    </form>
+    <a href="{{ url_for('index') }}">返回首頁</a>
+</body>
+</html>

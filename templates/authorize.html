@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>授權</title>
+</head>
+<body>
+    <h1>授權</h1>
+    <p>{{ client.name }} 請求訪問您的賬戶資訊。</p>
+    <form method="post">
+        <input type="submit" name="confirm" value="yes">
+        <input type="submit" name="confirm" value="no">
+    </form>
+    <a href="{{ url_for('index') }}">返回首頁</a>
+</body>
+</html>
